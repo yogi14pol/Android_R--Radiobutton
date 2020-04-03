@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<RadioGroup
+    android:id="@+id/group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android"/>
+
+    <RadioButton
+        android:id="@+id/radio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Kotlin"/>
+
+    <RadioButton
+        android:id="@+id/radio3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Flutter"/>
+
+</RadioGroup>
+
+<Button
+    android:id="@+id/btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:layout_below="@id/group"
+    android:textColor="#fff"
+    android:layout_marginTop="30dp"
+    android:background="#f00"/>
+
+</RelativeLayout>
